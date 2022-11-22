@@ -1,8 +1,8 @@
 
 export default function Header() {
   return (
-      <div className="mx-auto pt-2 lg:max-w-screen-2xl px-4 sticky top-0 bg-white">
-        <div className="flex items-center justify-between pt-2 pb-4 sm:py-4 md:justify-start md:space-x-10">
+      <div className="pt-2sticky top-0 bg-white">
+        <div className="flex items-center justify-between pt-2  px-4 pb-4 sm:py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="text-lg md:text-xl lg:text-3xl font-bold text-darkpurple border-b-4 border-darkpurple">SHRINE SLC</span>
@@ -14,7 +14,7 @@ export default function Header() {
             <a href="#contact" className="sm:text-l lg:text-xl drop-shadow-lg font-bold text-softblack hover:drop-shadow-lg hover:text-darkpurple hover:underline underline-offset-4 px-2">Contact</a>
           </div>
         </div>
-        <div className="w-full h-2 bg-gradient-to-b from-darkpurple" />
+        <div className="w-full h-2 bg-white drop-shadow-md" />
       </div>
   )
 };

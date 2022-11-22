@@ -8,7 +8,7 @@ function App() {
   return (
     <main>
       <Header/>
-        <div className="flex justify-center py-2 border-t border-b border-darkpurple mx-16 my-2">
+        <div className="flex justify-center py-2 border-t border-b border-darkpurple mx-16 mt-4 mb-2">
           <a href="https://www.youtube.com/channel/UCCJCWKOR156k8oA1ewXuKHQ" target="__blank" className="text-base font-medium text-gray-500 hover:text-red-600">
             <AiFillYoutube className='h-8 sm:h-12 w-8 sm:w-12 mx-2' />
           </a>
